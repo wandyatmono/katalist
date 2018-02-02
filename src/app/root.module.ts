@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MaterializeModule } from 'angular2-materialize';
 
 import { RootComponent } from './root.component';
 
@@ -10,7 +10,8 @@ import { RootComponent } from './root.component';
     RootComponent
   ],
   imports: [
-    BrowserModule
+    MaterializeModule,
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [RootComponent]

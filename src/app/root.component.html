@@ -4,5 +4,96 @@
         Welcome to {{ title }}!
     </h1>
     <img width="256" alt="Project Logo" src="./assets/images/favicons/256.png">
+    <div class="card-panel teal lighten-2">
+		This is a card panel with a teal lighten-2 class
+    </div>
+    <ul materialize="collapsible" class="collapsible" data-collapsible="accordion">
+		<li>
+			<div class="collapsible-header">
+				<i class="material-icons">filter_drama</i>First
+			</div>
+			<div class="collapsible-body">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</li>
+		<li>
+			<div class="collapsible-header">
+				<i class="material-icons">place</i>Second
+			</div>
+			<div class="collapsible-body">
+				<p>Lorem ipsum dolor sit amet mas.</p>
+			</div>
+		</li>
+		<li>
+			<div class="collapsible-header">
+				<i class="material-icons">whatshot</i>Third
+			</div>
+			<div class="collapsible-body">
+				Lorem ipsum dolor sit amet mas.
+				<span class="switch">
+					<label>
+						Off
+						<input type="checkbox">
+						<span class="lever"></span>
+						On
+					</label>
+				</span>
+			</div>
+		</li>
+	</ul>
+</div>
+<form materialize class="col s12">
+	<div class="row">
+		<div class="input-field col s6">
+		<i class="material-icons prefix">account_circle</i>
+		<input id="first-name" type="text" class="validate">
+		<label for="first-name">First Name</label>
+	</div>
+	<div class="input-field col s6">
+		<i class="material-icons prefix">alarm</i>
+		<input id="time-rise" type="text" class="validate">
+		<label for="time-rise">Rising Time</label>
+		</div>
+	</div>
+</form>
+
+<div class="carousel" id="carousel-1">
+	<a class="carousel-item" href="#one!">
+		<img src="./assets/images/temp/carousel/chris.jpg">
+	</a>
+	<a class="carousel-item" href="#two!">
+		<img src="./assets/images/temp/carousel/jenny.jpg">
+	</a>
+	<a class="carousel-item" href="#three!">
+		<img src="./assets/images/temp/carousel/kristy.png">
+	</a>
+	<a class="carousel-item" href="#four!">
+		<img src="./assets/images/temp/carousel/matthew.png">
+	</a>
+	<a class="carousel-item" href="#five!">
+		<img src="./assets/images/temp/carousel/yuna.jpg">
+	</a>
 </div>
 
+
+<div materialize="carousel" class="carousel carousel-slider center" id="carousel-2">
+	<div class="carousel-fixed-item center">
+		<!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+	</div>
+	<div class="carousel-item red white-text" href="#one!">
+		<h2>First Panel</h2>
+		<p class="white-text">This is your first panel</p>
+	</div>
+	<div class="carousel-item amber white-text" href="#two!">
+		<h2>Second Panel</h2>
+		<p class="white-text">This is your second panel</p>
+	</div>
+	<div class="carousel-item green white-text" href="#three!">
+		<h2>Third Panel</h2>
+		<p class="white-text">This is your third panel</p>
+	</div>
+	<div class="carousel-item blue white-text" href="#four!">
+		<h2>Fourth Panel</h2>
+		<p class="white-text">This is your fourth panel</p>
+	</div>
+</div>
